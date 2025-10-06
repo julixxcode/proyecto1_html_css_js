@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  proyecto1:
+    image: julian1511/proyecto1_html_css_js:latest
+    container_name: proyecto1_html_css_js_run
+    ports:
+      - "8080:80"
+    restart: unless-stopped

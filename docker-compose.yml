@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  proyecto1:
+    build: .
+    container_name: proyecto1_html_css_js
+    ports:
+      - "8080:80"
+    restart: unless-stopped
